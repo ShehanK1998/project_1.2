@@ -9,7 +9,7 @@ const Home = () => {
   const [bodyPart, setBodyPart] = useState('all');
   const [exercises, setExercises] = useState([]);
 
-  console.log(bodyPart)
+  //console.log(bodyPart)
 
   return (
     <Box>
@@ -26,4 +26,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
