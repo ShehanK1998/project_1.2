@@ -35,8 +35,8 @@ const Detail = ({exerciseDetail}) => {
         </Typography>
         
         <Typography variant='h6'>
-         Exercise keep you strong. {name} {``} is the one of the best 
-         exercises to target your {target} {``} . 
+         Exercise keep you strong. <span style={{textTransform:'capitalize'}}>{name}</span> {``} is the one of the best 
+         exercises to target your <span style={{textTransform:'capitalize'}}>{target}</span> {``} . 
          It will help to improve your mood and gain energy.
         </Typography>
         
